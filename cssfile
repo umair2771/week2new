@@ -1,0 +1,151 @@
+
+
+.header{
+    margin-right : 7px;
+    height: 120px;
+    width:  100%:
+    text-align:center;
+    clear:both;
+
+}
+
+.logo{
+
+    height:110px;
+    margin-left:15px;
+    float:left;
+
+}
+
+
+.navgbar{
+
+    margin-right:40px;
+    margin-top:40px;
+    text-align:center;
+    font-family:Poppins;
+    float:right;
+
+
+
+}
+
+ .navgbar a {
+
+        text-decoration:none;
+        color: black;
+        height: auto;
+        width: auto;
+        margin-left: 20px;
+        text-align: center;
+  }
+
+ .navgbar a:hover{
+  color:crimson;
+  text-decoration:underline solid black;
+ }
+.button a:hover {
+    color: floralwhite;
+    text-decoration: underline solid black;
+}
+
+
+ .section1{
+     margin-top:10px;
+     height:300px;
+     width:auto;
+     background-image:url("banner.jpg");
+     background-size:cover;
+     background-position:center;
+     padding:25px;
+     text-align:center;
+     border-radius:25px;
+     font-family:Poppins;
+
+ }
+
+ .text{
+
+     padding:80px;
+
+ }
+
+
+ ,section2{
+     margin-top:15px;
+     text-align:center;
+     height:250px;
+     width:auto;
+ }
+
+ .section2heading{
+
+     font: bold strong black;
+     padding:10px;
+     text-align:center;
+     font:500;
+     font-family:Poppins;
+     font-size:medium;
+
+ }
+
+.section2text{
+   
+    padding-left: 30px;
+    padding-right:30px;
+    text-align:center;
+    font-family:Poppins;
+
+
+}
+
+.button {
+    margin-top: 60px;
+    align-content:center;
+    align:center;
+    color: black;
+    font-style: bold;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    background-color: limegreen;
+    margin-left:47%;
+    font-family:Poppins;
+    text-decoration:none;
+}
+
+
+b:hover {
+    color:black;
+    text-decoration: underline solid black;
+    border-block-color:black;
+    
+}
+
+.servicessection {
+    text-align: center;
+    display: flex;
+   
+   
+    font-family: Poppins;
+}
+
+.imagesection {
+
+    justify-content: space-evenly;
+    padding:10px;
+
+
+}
+.ourservices{
+
+    text-align:center;
+    font-family:Poppins;
+}
+
+
+
+
+   
