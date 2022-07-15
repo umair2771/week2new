@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week_2_UI_Contents</title>
+    <link rel="stylesheet" a href="4128_Assig_2.css" />
+    
+    
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="logo.png">
+        </div>
+        <div>
+            <nav class="navgbar">
+                <a href="">Home</a>
+                <a href="">My Work</a>
+                <a href="">About Us</a>
+                <a href="">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+    <div class="section1">
+        <div>
+            <h1>My Country</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+    </div>
+    <div class="section2">
+        <div class="section2heading">
+            <h3>Heading Text</h3>
+        </div>
+        <div class="section2text">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <br>
+
+        </div>
+
+        <div><a class="button" href="www.curemd.com">Explore</a></div>
+        <br />
+        <hr>
+    </div>
+
+    <h3 class="ourservices">Our Services</h3>
+    <div class="servicessection">
+
+
+        <div >
+            <img class="image" src="service-1.jpg" alt="">
+            <label><strong>Web Design</strong></label>
+            <p>Focus on how you can help and benefit your user. Use simple words so you don't confuse people.</p>
+        </div>
+        <div >
+            <img class="image" src="service-1.jpg" alt="">
+            <label><strong>Web Design</strong></label>
+            <p>Focus on how you can help and benefit your user. Use simple words so you don't confuse people.</p>
+        </div>
+        <div >
+            <img class="image" src="service-1.jpg" alt="">
+            <label><strong>Web Design</strong></label>
+            <p>Focus on how you can help and benefit your user. Use simple words so you don't confuse people.</p>
+        </div>
+        <div >
+            <img class="image" src="service-1.jpg" alt="">
+            <label><strong>Web Design</strong></label>
+            <p>Focus on how you can help and benefit your user. Use simple words so you don't confuse people.</p>
+        </div>
+    </div>
+    <hr>
+    <div>
+        <div>
+            <h6>ABOUT US</h6>
+            <h2>Tell website visitors who you are and why they should choose your business.</h2>
+            <p>Because when a visitor first lands on your website, you're a complete stranger to them. They have to get to know you in order to want to read your blogposts, subscribe to your email newsletter, or buy what you're selling.</p>
+            <br>
+            <a class="bg-white" href="">Find Out More</a>
+        </div>
+        <div>
+            <img class="image" src="about-us.jpg" alt="">
+        </div>
+    </div>
+    <hr>
+    <div>
+        <div>
+            <h2>QUESTIONS?</h2>
+            <p>Whether you're curious about feature, a free trial or even press, we're here to answer your questions.</p>
+            <br><br>
+            <a class="bg-yellow" href="">Find Out More</a>
+        </div>
+    </div>
+    <br><br>
+    <h3>List of Contractors</h3>
+    <p>Lorem Ipsum, adi bilinmeyen bir hurufat numune kitab.</p>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Status</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+
+        </tr>
+
+        <tr><td>#001</td><td>MUHAMMAD UMAIR</td><td>Lorem Ipsum</td><td>Active</td><td>27/08/2020</td><td>13/07/2022</td></tr>
+        <tr><td>#001</td><td>MUHAMMAD UMAIR</td><td>Lorem Ipsum</td><td>Active</td><td>27/08/2020</td><td>13/07/2022</td></tr>
+        <tr><td>#001</td><td>MUHAMMAD UMAIR</td><td>Lorem Ipsum</td><td>Active</td><td>27/08/2020</td><td>13/07/2022</td></tr>
+        <tr><td>#001</td><td>MUHAMMAD UMAIR</td><td>Lorem Ipsum</td><td>Active</td><td>27/08/2020</td><td>13/07/2022</td></tr>
+    </table>
+    <br>
+    <hr>
+    <h3>Fill your Interests</h3>
+    <p>Lorem Ipsum, adi bilinmeyen bir hurufat numune kitab.</p>
+    <div>
+        <div>
+            <div><label for="fname">Name</label></div>
+            <div><input type="text" id="fname" name="firstname" placeholder="Enter Your First Name"></div>
+            <div><label for="email">Email</label></div>
+            <div><input type="email" id="email" name="email" placeholder="abc@gmail.com"></div>
+            <div><label for="dob">Date Of Birth</label></div>
+            <div><input type="date"></div>
+            <div><label for="interest">Interest</label></div>
+            <div>
+                <select name="interest" id="int">
+                    <option value="select">Select Interest</option>
+                    <option value="Cooking">Cooking</option>
+                    <option value="Sports">Sports</option>
+                    <option value="News">News</option>
+                    <option value="Gaming">Gaming</option>
+                </select>
+
+            </div>
+
+            <input type="radio" name="individual" id="individual">
+            <label for="radio">Individual</label>
+
+            <input type="radio" name="organization" id="organization">
+            <label for="radio">Organization</label>
+            <br><br>
+
+            <div><label for="aboutinfo">About You</label></div>
+            <div><textarea name="aboutinfo" id="aboutinfo" cols="28" rows="12" placeholder=""></textarea></div>
+            <button>Send Details</button>
+        </div>
+
+        <div>
+
+            <img src="contactus.jpg">
+            <p>Lorem Ipsum, adi bilinmeyen bir hurufat numune kitab. Lorem Ipsum, adi bilinmeyen bir hurufat numune kitab.</p>
+            <p>Points to be noted</p>
+            <ol>
+                <li>Point is to add story...</li>
+                <li>Point is to add story...</li>
+                <li>Point is to add story...</li>
+                <li>Point is to add story...</li>
+            </ol>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <h3>Contact Us</h3>
+            <p>Lorem Ipsum, adi bilinmeyen bir hurufat numune kitab.Lorem Ipsum, adi bilinmeyen bir hurufat numune kitab.</p>
+            <a href="View On Google Maps">View On Google Maps</a>
+        </div>
+
+
+    </footer>
+
+</body>
+</html>
